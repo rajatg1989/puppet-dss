@@ -14,7 +14,7 @@ radosgw_internal_address: "dss-dev-test.jiocloud.com"
 
 rjil::system::proxies:
   "no":
-    url: "127.0.0.1,localhost,consul,jiocloudcom"
+    url: "127.0.0.1,localhost,consul,https://iam.ind-west-1.internal.jiocloudservices.com"
   http:
     url: "http://10.140.218.59:3128/"
   https:
