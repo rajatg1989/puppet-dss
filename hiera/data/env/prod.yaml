@@ -25,10 +25,10 @@ rjil::ceph::osd::autodetect: true
 rjil::ceph::osd::disk_exceptions:
   - sda
 
-rjil::system::accounts::active_users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21]
+rjil::system::accounts::active_users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21,rajatg1989]
 rjil::system::accounts::sudo_users:
   admin:
-    users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21]
+    users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21,rajatg1989]
 
 rjil::jiocloud::dns::entries:
   object-storage-dev-test.jiocloud.com:
