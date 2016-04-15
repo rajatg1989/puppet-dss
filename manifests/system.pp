@@ -129,7 +129,7 @@ class rjil::system(
     'net.ipv4.tcp_wmem':		        value => "4096\t65536\t56623104";
     'net.core.somaxconn':			value => 1024;
     'net.core.netdev_max_backlog':		value => 50000;
-    'net.ipv4.tcp_max_syn_backlog':		value => 30000;
+    'net.ipv4.tcp_max_syn_backlog':		value => 4096;
     'net.ipv4.tcp_max_tw_buckets':		value => 2000000;
     'net.ipv4.tcp_tw_recycle':			value => 1;
     'net.ipv4.tcp_tw_reuse':			value => 1;

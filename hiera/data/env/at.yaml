@@ -17,10 +17,10 @@ rjil::ceph::osd::osd_journal_size: 2
 # Only Qemu is supported on virtual testing environment
 nova::compute::libvirt::libvirt_virt_type: qemu
 
-rjil::system::accounts::active_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,ahmad,vaidy,rohit,amar,abhishekl,mayankkapoor,anshup,varunarya,prashant,punituee,saju,ajayaa,swami,karansa,abhidixit,shashankchakelam,vpramo,atmesh.mishra,rushiagr,sudoku,sachit,harshalgupta,viveksharma,yatinkumbhare,naveenreddy,akash,rakesh,manasi,bafna,anant,rahul,devendermishra,baljit,dpak,bhavin,neeraj,himanshus,shishir,pandiselvi,roopali,vivekdhayaal,shivanshu21,chiragaggarwal,tusharmotghare]
+rjil::system::accounts::active_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,ahmad,vaidy,rohit,amar,abhishekl,mayankkapoor,anshup,varunarya,prashant,punituee,saju,ajayaa,swami,karansa,abhidixit,shashankchakelam,vpramo,atmesh.mishra,rushiagr,sudoku,sachit,harshalgupta,viveksharma,yatinkumbhare,naveenreddy,akash,rakesh,manasi,bafna,anant,rahul,devendermishra,baljit,dpak,bhavin,neeraj,himanshus,shishir,pandiselvi,roopali,vivekdhayaal,shivanshu21,rajatg1989,chiragaggarwal,tusharmotghare]
 rjil::system::accounts::sudo_users:
   admin:
-    users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,ahmad,vaidy,rohit,amar,abhishekl,mayankkapoor,anshup,varunarya,prashant,punituee,saju,ajayaa,swami,karansa,abhidixit,shashankchakelam,vpramo,atmesh.mishra,rushiagr,sudoku,sachit,harshalgupta,viveksharma,yatinkumbhare,naveenreddy,akash,rakesh,manasi,bafna,anant,rahul,devendermishra,baljit,dpak,bhavin,neeraj,himanshus,shishir,pandiselvi,roopali,vivekdhayaal,shivanshu21,chiragaggarwal,tusharmotghare]
+    users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,ahmad,vaidy,rohit,amar,abhishekl,mayankkapoor,anshup,varunarya,prashant,punituee,saju,ajayaa,swami,karansa,abhidixit,shashankchakelam,vpramo,atmesh.mishra,rushiagr,sudoku,sachit,harshalgupta,viveksharma,yatinkumbhare,naveenreddy,akash,rakesh,manasi,bafna,anant,rahul,devendermishra,baljit,dpak,bhavin,neeraj,himanshus,shishir,pandiselvi,roopali,vivekdhayaal,shivanshu21,rajatg1989,chiragaggarwal,tusharmotghare]
 
 rjil::base::self_signed_cert: true
 

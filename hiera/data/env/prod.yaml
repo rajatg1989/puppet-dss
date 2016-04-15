@@ -14,7 +14,7 @@ radosgw_internal_address: "dss-dev-test.jiocloud.com"
 
 rjil::system::proxies:
   "no":
-    url: "127.0.0.1,localhost,consul,jiocloudcom"
+    url: "127.0.0.1,localhost,consul,iam.ind-west-1.internal.jiocloudservices.com"
   http:
     url: "http://10.140.218.59:3128/"
   https:
@@ -25,10 +25,10 @@ rjil::ceph::osd::autodetect: true
 rjil::ceph::osd::disk_exceptions:
   - sda
 
-rjil::system::accounts::active_users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21]
+rjil::system::accounts::active_users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21,rajatg1989]
 rjil::system::accounts::sudo_users:
   admin:
-    users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21]
+    users: [rahul,harshalgupta,bafna,abhidixit,shivanshu21,rajatg1989]
 
 rjil::jiocloud::dns::entries:
   object-storage-dev-test.jiocloud.com:
@@ -52,6 +52,8 @@ ceph::radosgw::rgw_thread_pool_size: 2048
 ceph::radosgw::rgw_bucket_index_shards: 8
 ceph::radosgw::rgw_frontends: "civetweb port=443s ssl_certificate=/etc/ssl/certs/dss.ind-west-1.internal.jiocloudservices.com.pem, civetweb port=444s ssl_certificate=/etc/ssl/certs/dss.ind-west-1.jiocloudservices.com.pem"
 ceph::radosgw::rgw_cors_allowed_origin": "https://console.jiocloudservices.com, http://console.jiocloudservices.com, http://consolepreprod.jiocloudservices.com, https://consolepreprod.jiocloudservices.com, http://console.staging.jiocloudservices.com, https://console.staging.jiocloudservices.com, https://jio.digilocker.com, http://jio.digilocker.com"
+ceph::radosgw::rgw_keystone_sign_api: "sign-auth"
+ceph::radosgw::rgw_keystone_token_api: "token-auth"
 ## OSD Config
 ceph::conf::debug_osd: 5
 ceph::conf::osd_op_threads: 4
