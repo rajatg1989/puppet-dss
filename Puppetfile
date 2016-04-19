@@ -62,8 +62,8 @@ mod 'jiocloud/orchestration_utils',
   :ref => 'origin/master'
 
 mod 'rodjek/logrotate',
-  :git => "#{base_url}/rodjek/puppet-logrotate/",
-  :ref => '89ee645e2350045be48df7ac3ef86cbe4cd9b096'
+  :git => "#{base_url}/jiocloudDSS/puppet-logrotate/",
+  :ref => 'origin/master'
 
 mod 'pdxcat/collectd',
   :git => "#{base_url}/pdxcat/puppet-module-collectd",
