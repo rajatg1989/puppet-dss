@@ -45,8 +45,8 @@ ceph::conf::filestore_max_sync_interval: 10
 ceph::conf::filestore_op_threads: 64
 #Pool Config
 rjil::ceph::mon::pool_pg_num: 32
-rjil::ceph::pool_default_size: 1
-rjil::ceph::mon::min_pool_size : 1
+rjil::ceph::pool_default_size: 3
+rjil::ceph::mon::min_pool_size : 2
 rjil::ceph::mon::pool_size : "%{hiera('rjil::ceph::pool_default_size')}"
 ceph::conf::pool_default_size:  "%{hiera('rjil::ceph::pool_default_size')}"
 ceph::conf::pool_default_min_size: "%{hiera('rjil::ceph::pool_default_size')}"
