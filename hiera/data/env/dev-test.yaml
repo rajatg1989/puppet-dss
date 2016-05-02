@@ -45,8 +45,8 @@ ceph::conf::filestore_max_sync_interval: 10
 ceph::conf::filestore_op_threads: 64
 #Pool Config
 rjil::ceph::mon::pool_pg_num: 32
-rjil::ceph::pool_default_size: 1
-rjil::ceph::mon::min_pool_size : 1
+rjil::ceph::pool_default_size: 3
+rjil::ceph::mon::min_pool_size : 2
 rjil::ceph::mon::pool_size : "%{hiera('rjil::ceph::pool_default_size')}"
 ceph::conf::pool_default_size:  "%{hiera('rjil::ceph::pool_default_size')}"
 ceph::conf::pool_default_min_size: "%{hiera('rjil::ceph::pool_default_size')}"
@@ -54,6 +54,8 @@ ceph::conf::pool_default_min_size: "%{hiera('rjil::ceph::pool_default_size')}"
 ceph::radosgw::debug_rgw: 5
 ceph::radosgw::rgw_obj_stripe_size: 20971520 #20 MB for now
 ceph::radosgw::rgw_thread_pool_size: 2048
+ceph::radosgw::rgw_frontends: "civetweb port=7480"
+ceph::radosgw::rgw_cors_allowed_origin: "https://console.jiocloudservices.com, http://console.jiocloudservices.com, http://consolepreprod.jiocloudservices.com, https://consolepreprod.jiocloudservices.com, http://console.staging.jiocloudservices.com, https://console.staging.jiocloudservices.com, https://consolestaging.jiocloudservices.com, https://jio.digilocker.com, http://jio.digilocker.com, https://digilocker.jiocloudservices.com"
 ceph::radosgw::rgw_bucket_index_shards: 8
 ## OSD Config
 ceph::conf::debug_osd: 5
