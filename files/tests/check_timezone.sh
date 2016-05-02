@@ -19,7 +19,7 @@ __EOH__
    esac
 fi
 
-timezone=${timezone:-'UTC'}
+timezone=${timezone:-'IST'}
 current_tz=`date +%Z`
 if [ `echo $current_tz | grep -c $timezone` -ne 0 ]; then
   echo "OK: timezone is set to $timezone"

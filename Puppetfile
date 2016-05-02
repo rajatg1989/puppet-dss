@@ -22,8 +22,8 @@ mod 'thias/squid3',
   :ref => 'origin/master'
 
 mod 'saz/timezone',
-  :git => "#{base_url}/saz/puppet-timezone",
-  :ref => 'v2.0.0'
+  :git => "#{base_url}/jioclouddss/puppet-timezone",
+  :ref => 'origin/dss'
 
 mod 'puppetlabs/apt',
   :git => "#{base_url}/puppetlabs/puppetlabs-apt",
