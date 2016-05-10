@@ -25,10 +25,6 @@ mod 'saz/timezone',
   :git => "#{base_url}/jioclouddss/puppet-timezone",
   :ref => 'origin/dss'
 
-mod 'saz/puppet-rsyslog',
-  :git => "#{base_url}/jioclouddss/puppet-rsyslog",
-  :ref => 'origin/master'
-
 mod 'puppetlabs/apt',
   :git => "#{base_url}/puppetlabs/puppetlabs-apt",
   :ref => '1.8.0'
