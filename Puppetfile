@@ -25,6 +25,10 @@ mod 'saz/timezone',
   :git => "#{base_url}/jioclouddss/puppet-timezone",
   :ref => 'origin/dss'
 
+mod 'saz/rsyslog',
+  :git => "#{base_url}/jioclouddss/puppet-rsyslog",
+  :ref => 'origin/master'
+
 mod 'puppetlabs/apt',
   :git => "#{base_url}/puppetlabs/puppetlabs-apt",
   :ref => '1.8.0'
@@ -34,8 +38,8 @@ mod 'puppetlabs/concat',
   :ref => '1.1.1'
 
 mod 'enovance/ceph',
-  :git => "#{base_url}/jioclouddss/puppet-ceph",
-  :ref => 'staging'
+  :git => "#{base_url}/rajatg1989/puppet-ceph",
+  :ref => 'testing-rsyslog'
 
 mod 'puppetlabs/stdlib',
   :git => "#{base_url}/puppetlabs/puppetlabs-stdlib",
