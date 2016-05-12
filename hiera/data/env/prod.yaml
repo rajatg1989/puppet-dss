@@ -16,9 +16,9 @@ rjil::system::proxies:
   "no":
     url: "127.0.0.1,localhost,consul,iam.ind-west-1.internal.jiocloudservices.com"
   http:
-    url: "http://10.140.218.59:3128/"
+    url: "http://10.140.212.10:3128/"
   https:
-    url: "http://10.140.218.59:3128/"
+    url: "http://10.140.212.10:3128/"
 
 rjil::ceph::osd::autodetect: true
 
