@@ -14,6 +14,7 @@ class rjil::ceph::radosgw (
 
   include ::ceph::conf
   include ::ceph::radosgw
+  include ::rsyslog::client
 
   ensure_packages($ssl_secrets_package_name, {ensure => $jiocloud_ssl_cert_package_ensure})
 
