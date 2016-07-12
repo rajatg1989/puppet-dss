@@ -73,6 +73,7 @@ ceph::radosgw::rgw_thread_pool_size: 2048
 ceph::radosgw::rgw_bucket_index_shards: 0
 ceph::radosgw::rgw_frontends: "civetweb port=7480"
 ceph::radosgw::rgw_cors_allowed_origin: "https://console.jiocloudservices.com, http://console.jiocloudservices.com, http://consolepreprod.jiocloudservices.com, https://consolepreprod.jiocloudservices.com, http://console.staging.jiocloudservices.com, https://console.staging.jiocloudservices.com, https://consolestaging.jiocloudservices.com, https://jio.digilocker.com, http://jio.digilocker.com, https://digilocker.jiocloudservices.com, http://digilocker.staging.jiocloudservices.com, https://digilocker.staging.jiocloudservices.com, http://jiolocker.jiocloudservices.com, https://jiolocker.jiocloudservices.com, http://jiolockerstaging.jiocloudservices.com, https://jiolockerstaging.jiocloudservices.com"
+ceph::radosgw::rgw_multipart_part_upload_limit: 2048 # 2048 parts * 5Gb per part = 10 Tb max object size
 ## OSD Config
 ceph::conf::debug_osd: 5
 ceph::conf::osd_op_threads: 4
