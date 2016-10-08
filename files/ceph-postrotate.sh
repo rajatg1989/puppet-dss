@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copied from upstream logrotate
 # Upstream source at https://github.com/ceph/ceph/blob/master/src/logrotate.conf
-
+service rsyslog restart
 if which invoke-rc.d > /dev/null 2>&1 && [ -x `which invoke-rc.d` ]; then
     invoke-rc.d ceph reload >/dev/null
 elif which service > /dev/null 2>&1 && [ -x `which service` ]; then
