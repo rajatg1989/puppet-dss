@@ -127,76 +127,76 @@ rjil::system::apt::repositories:
       =iZW7
       -----END PGP PUBLIC KEY BLOCK-----
   puppet-dss:
-    location: 'http://10.140.221.229/apt/JcsDSS/JcsDSS'
+    location: 'http://10.140.221.229/apt/bafna/bafna'
     architecture: 'amd64'
     release: 'jiocloud'
     repos: 'main'
     include_src: false
-    key: 'AA2EA1FC'
+    key: '10FFA9BC'
     key_content: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1
-      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
-      umaofiqf+KcMPMZFm5OuIg==
-      =pMQK
+      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
+      vfW6si1IyK7LtuCI3uU2
+      =mdmh
       -----END PGP PUBLIC KEY BLOCK-----
   dss-ceph:
-    location: 'http://10.140.221.229/snapshots/54047075-4ca0-4a5b-b61f-500f0868271c/10.140.221.229/apt/JcsDSS2/JcsDSS2/'
+    location: 'http://10.140.221.229/snapshots/c603eba3-aadd-44da-8081-2ed3716c342b/10.140.221.229/apt/JcsDSS2/JcsDSS2/'
     architecture: 'amd64'
     release: 'jiocloud'
     repos: 'main'
